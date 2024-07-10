@@ -1,0 +1,147 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+
+}
+img {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+body {
+    max-width: 100%;
+    height: 100vh;
+    background-color: var(--OffBlack);
+    padding: 15px 25px;
+}
+
+.container  {
+    background-color: var(--DarkGrey);
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px 55px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.name {
+    color: var(--White);
+    font-family: "Inter", sans-serif;
+}
+
+.country {
+    color: var(--Green);
+    font-family: "Inter", sans-serif;
+}
+
+.position {
+    color: var(--White);
+    font-family: "Inter", sans-serif;
+}
+
+.list {
+    color: var(--White);
+    font-family: "Inter", sans-serif;
+}
+
+.git {
+    background-color: var(--Grey);
+    border: 1px solid var(--Grey);
+    border-radius: 10px;
+}
+
+.git:active  {
+    background-color: var(--Green);
+    color: var(--OffBlack);
+    outline-color: var(--Green);
+}
+
+.mentor {
+    background-color: var(--Grey);
+    border: 1px solid var(--Grey);
+    border-radius: 10px;
+}
+
+.mentor:active {
+    background-color: var(--Green);
+    color: var(--OffBlack);
+    outline-color: var(--Green);
+}
+
+.app {
+    background-color: var(--Grey);
+    border: 1px solid var(--Grey);
+    border-radius: 10px;
+}
+
+.app:active {
+    background-color: var(--Green);
+    color: var(--OffBlack);
+    outline-color: var(--Green);
+}
+
+.social {
+    background-color: var(--Grey);
+    border: 1px solid var(--Grey);
+    border-radius: 8px;
+}
+
+.social:active {
+    background-color: var(--Green);
+    color: var(--OffBlack);
+    outline-color: var(--Green);
+}
+
+.insta {
+    background-color: var(--Grey);
+    border: 1px solid var(--Grey);
+    border-radius: 10px;
+}
+
+.insta:active {
+    background-color: var(--Green);
+    color: var(--OffBlack);
+    outline-color: var(--Green);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    body {
+        padding: 0;
+    }
+    .container {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+}
